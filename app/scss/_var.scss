@@ -1,0 +1,19 @@
+%NeutrafaceCondensed-Medium-400{
+  font-family: 'NeutrafaceCondensed-Medium', sans-serif;
+  font-weight: 400;
+}
+
+%FuturaPT-Book-400{
+  font-family: 'FuturaPT-Book', sans-serif;
+  font-weight: 400;
+}
+
+%btn{
+  cursor: pointer;
+  color: #fff;
+  background: #FF6E00;
+  padding: 15px 80px;
+  @extend %FuturaPT-Book-400;
+  border-radius: 48px;
+  border-width: 0px;
+}

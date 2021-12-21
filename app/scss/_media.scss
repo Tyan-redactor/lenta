@@ -1,0 +1,27 @@
+@media (max-width: 1400px) {
+  img{
+    max-width: 80%;
+  }
+  .bottom-title {
+    font-size: 75px;
+    line-height: 70px;
+    &__desc-item{
+      font-size: 14px;
+    line-height: 23px;
+    }
+  }
+}
+@media (max-width: 1250px) {
+  img{
+    max-width: 70%;
+  }
+  .bottom-title {
+    font-size: 75px;
+    line-height: 70px;
+    &__desc-item{
+      font-size: 14px;
+    line-height: 23px;
+    }
+  }
+}
+

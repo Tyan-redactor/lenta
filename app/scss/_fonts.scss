@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'NeutrafaceCondensed-Medium';
+  font-weight: 400;
+  font-style: normal;
+  src: local('NeutrafaceCondensed-Medium'),
+       url('../fonts/NeutrafaceCondensed-Medium.woff2') format('woff2'),
+       url('../fonts/NeutrafaceCondensed-Medium.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FuturaPT-Book';
+  font-weight: 400;
+  font-style: normal;
+  src: local('FuturaPT-Book'),
+       url('../fonts/FuturaPT-Book.woff2') format('woff2'),
+       url('../fonts/FuturaPT-Book.woff') format('woff');
+  font-display: swap;
+}
+ 
