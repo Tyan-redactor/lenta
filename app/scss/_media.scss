@@ -24,4 +24,370 @@
     }
   }
 }
+@media (max-width: 768px) {
+  .page {
+    min-height: 100vh;
+  }
+  .header-top__inner {
+    margin-top: 40px;
+  }
+  .header__content {
+    max-width: 620px;
+    margin-left: 75px;
+  }
+  .page__wrapper {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh
+  }
+  // .header__video {
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  // }
+  .header__video {
+    display: none;
+  }
+  .top-title__img {
+    height: 50px;
+    margin-top: 170px;
+    margin-bottom: -25px;
+  }
+  .bottom-title {
+    font-size: 50px;
+    margin-bottom: 25px;
+  }
+  .bottom-title__desc  {
+    margin: 0 auto;
+    font-size: 16px;
+    height: 237px;
+    width: 460px;
+  }
+  .functional {
+    position: relative;
+  }
+  .functional__scroll {
+    position: absolute;
+    right: 0;
+    bottom: -130px;
+  }
+  .favorites__like {
+    position: absolute;
+    bottom: -220px;
+    left: 0;
+  }
+  .proekt__inner {
+    max-width: 620px;
+    margin: 0 auto;
+  }
+  .container {
+    background-color: #000;
+  }
+  .bottom-title__img {
+    height: 24px;
+  }
+  .logo__img {
+    height: 18px;
+  }
+  .functional__scroll--2 {
+    bottom: 60px;
+  }
+  .functional__btn-left {
+    padding-right: 235px;
+    padding-top: 200px;
+  }
+  .page__wrapper--2 {
+    background-image: none;
+  }
+  .proekt-center__item-title {
+    width: 523px;
+    height: 143px;
+    margin-left: 120px;
+    margin-bottom: -100px;
+    margin-top: 25px;
+    
+    &-first,
+    &-first::after {
+      font-size: 40px;
+    }
+  }
+  .proekt__inner-top {
+    position: relative;
+  }
+  .proekt__inner-top--2::after {
+    content: "";
+    width: 300px;
+    height: 390px;
+    background-image: url(../images/foto1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    bottom: -400px;
+    right: 175px;
+  }
+  .proekt-center__item-title-second {
+    display: none;
+  }
+  .proekt-center__item-title-first::after {
+    content: "МЕСТО, КОТОРОЕ НЕ ХОЧЕТСЯ ПОКИДАТЬ!";
+  }
+  .proekt-center__item-text::after {
+    display: none;
+  }
+  .proekt-center__item-subtitle-first {
+    margin-top: 250px;
+  }
+  .proekt-center__item-subtitle {
+    &-first,
+    &-second {
+      margin-left: 120px;
+    }
+  }
+  .container--balls {
+    background-image: url(../images/balls/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 85vh;
+  }
+  .balls__balls {
+    margin-left: 100px;
+  }
+  .favorites__like--balls {
+    display: none;
+  }
+  .balls__header img {
+    max-width: 90%;
+  }
+  .ballelem01 {
+    position: absolute;
+    right: 500px;
+    top: -29px;
+  }
+  .ballelem02 {
+    position: absolute;
+    right: 550px;
+    top: -167px;
+  }
+  .ballelem03 {
+    position: absolute;
+    right: 450px;
+    top: 245px;
+  }
+  .ballelem04 {
+    position: absolute;
+    right: 350px;
+    top: -79px;
+  }
+  .ballelem05 {
+    position: absolute;
+    z-index: -1;
+    right: 333px;
+    top: 99px;
+  }
+  .ballelem06 {
+    position: absolute;
+    right: 219px;
+    top: -152px;
+  }
+  .ballelem07 {
+    position: absolute;
+    right: 181px;
+    top: -120px;
+    z-index: -1;
+  }
+  .ballelem08 {
+    position: absolute;
+    right: 50px;
+    top: -121px;
+    z-index: 100;
+  }
+  .ballelem09 {
+    position: absolute;
+    right: 200px;
+    top: 219px;
+    z-index: -1;
+  }
+  .ballelem10 {
+    position: absolute;
+    right: 9px;
+    top: 240px;
+  }
+  .ballelem11 {
+    position: absolute;
+    right: 13px;
+    top: -98px;
+  }
+  .functional__btn.disabled {
+    margin-top: 240px;
+  }
+  .balls__header-text {
+    bottom: -45px;
+    right: 60px;
+    position: absolute;
+  }
+}
+
+
+    
+
+
+
+
+
+
+
+
+@media (max-width: 375px) {
+  .header__content img {
+    max-width: 90%;
+  }
+  .header-top__inner {
+    margin-top: 20px;
+  }
+  .header__content {
+    max-width: 335px;
+    margin-left: 20px;
+  }
+  .top-title__img {
+    height: 50px;
+    width: 335px;
+    margin-top: 30px;
+    margin-bottom: -33px;
+  }
+  .bottom-title {
+    font-size: 50px;
+    line-height: 55px;
+    margin-bottom: 13px;
+  }
+  .bottom-title__desc {
+    width: 335px;
+  }
+  .functional__btn {
+    margin-top: 100px;
+  }
+  .favorites__like {
+    bottom: -275px;
+  }
+  .proekt__inner {
+    max-width: 335px;
+    margin: 0 auto;
+  }
+  .container {
+    background-color: #000;
+  }
+  .bottom-title__img {
+    height: 16px;
+  }
+  .logo__img {
+    height: 11px;
+  }
+  .proekt__inner-top::after {
+    right: 23px;
+    bottom: -430px;
+  }
+  .proekt-center__item-subtitle-first {
+    margin-top: 390px;
+  }
+  .proekt-center__item-text {
+    width: 335px;
+    padding-right: 0;
+  }
+  .proekt-center__item-subtitle {
+    &-first,
+    &-second {
+      margin-left: 20px;
+    }
+  }
+  .proekt-center__item-title {
+    width: 335px;
+    height: 143px;
+    margin-left: 20px;
+    margin-bottom: -100px;
+    margin-top: 25px;
+    
+    &-first,
+    &-first::after {
+      font-size: 35px;
+      line-height: 45px;
+    }
+  }
+  .functional__btn--2 {
+    width: 190px;
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+  .functional__scroll--2 {
+    bottom: -65px;
+    right: -5px;
+  }
+  .balls__header-text {
+    width: 236px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 16px;
+  }
+  .functional__btn.functional__btn.disabled {
+    padding: 10px 17px;
+  }
+  .ballelem01 {
+    width: 82px;
+    right: 191px;
+    top: 163px;
+  }
+  .ballelem02 {
+    width: 82px;
+    right: 120px;
+    top: -2px;
+  }
+  .ballelem03 {
+    width: 82px;
+    right: 144px;
+    top: -22px;
+  }
+  .ballelem04 {
+    width: 82px;
+    right: 23px;
+    top: 90px;
+  }
+  .ballelem05 {
+    width: 82px;
+    right: 5px;
+    top: 85px;
+  }
+  .ballelem06 {
+    width: 82px;
+    right: 278px;
+    top: 22px;
+  }
+  .ballelem07 {
+    width: 82px;
+    right: 75px;
+    top: 129px;
+  }
+  .ballelem08 {
+    width: 82px;
+    right: 30px;
+    top: -60px;
+  }
+  .ballelem09 {
+    width: 82px;
+    right: 250px;
+    top: 27px;
+  }
+  .ballelem10 {
+    width: 82px;
+    right: 203px;
+    top: 94px;
+  }
+  .ballelem11 {
+    width: 82px;
+    right: 190px;
+    top: -162px;
+  }
+  .functional__btn.disabled {
+    margin-top: -20px;
+  }
+}
 

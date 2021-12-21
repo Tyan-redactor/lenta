@@ -5,14 +5,29 @@ $(window).on('load', function () {
   $('body').delay(350).css({ 'overflow': 'visible' });
 })
 
-//fullpage
+//pagepiling
 $(document).ready(function () {
-  $('#fullpage').fullpage({
-    licenseKey: 'YOUR_KEY_HERE',
-    autoScrolling: true
-  });
+  $('#pagepiling').pagepiling({});
+  cchangePPactivity();
 });
 
+function cchangePPactivity() {
+  if (window.innerWidth < 1450) {
+    document.body.classList.add('pp-disable');
+    bMoveDown = not_pp_moveDown;
+    bMoveUp = not_pp_moveUp;
+  }
+  else {
+    document.body.classList.remove('pp-disable');
+    bMoveDown = pp_moveDown;
+    bMoveUp = pp_moveUp;
+  }
+  console.log(bMoveUp);
+}
+
+window.addEventListener('resize', function () {
+  cchangePPactivity();
+});
 
 //scroll
 function scrollBottom(element) {
